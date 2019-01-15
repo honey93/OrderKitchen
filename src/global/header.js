@@ -10,7 +10,7 @@ class Header extends Component {
   constructor() {
     super();
     this.state = {
-      endpoint: window.location.hostname
+      endpoint: 'http://localhost:3000'
     };
 
     socket = socketIOClient(this.state.endpoint);
@@ -32,7 +32,7 @@ class Header extends Component {
             </li>
             <li>
               <NavLink to="/kitchen"> Kitchen </NavLink>
-            </li>
+            </li  >
           </ul>
         </nav>
       </header>
