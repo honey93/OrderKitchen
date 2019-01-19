@@ -5,24 +5,24 @@ Project consist of both Backend and Frontend code
 Go to the root directory in the source code and find out the below-mentioned files. <br> This Architecture helps in creating a big modular App.
 */
 <br>
-backend-my-app/ /* Backend of the code goes here */ 
- server.js
- build/      /* Optional for deployment of Frontend Build */ 
- package.json /* Backend dependency */
- ...
-public/
-src/  /*      Frontend Sourcecode      */
- global/      /*   Components getting used everywhere   */
-  header.css
-  header.js     
- main/           
-  Kitchen.js
-  PlaceOrder.js
-  UpdatePredicted.js
- App.js   /* Routing logic and component assembly part */
-package.json /* Frontend dependency */ 
- ............
-
+backend-my-app/ /* Backend of the code goes here */ <br>
+ server.js<br>
+ build/      /* Optional for deployment of Frontend Build */ <br>
+ package.json /* Backend dependency */<br>
+ ...<br>
+public/<br>
+src/  /*      Frontend Sourcecode      */<br>
+ global/      /*   Components getting used everywhere   */<br>
+  header.css<br>
+  header.js     <br>
+ main/              <br>
+  Kitchen.js<br>
+  PlaceOrder.js<br>
+  UpdatePredicted.js<br>
+ App.js   /* Routing logic and component assembly part */<br>
+package.json /* Frontend dependency */ <br>
+ ............<br>
+<br>
 ## Available Scripts
 
 ## Backend Code
