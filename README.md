@@ -1,3 +1,40 @@
+Project consist of both Backend and Frontend code
+
+## Folder Structure 
+/*
+Go to the root directory in the source code and find out the below-mentioned files. <br> This Architecture helps in creating a big modular App.
+*/
+<br>
+backend-my-app/ /* Backend of the code goes here */ 
+ server.js
+ build/      /* Optional for deployment of Frontend Build */ 
+ package.json /* Backend dependency */
+ ...
+public/
+src/  /*      Frontend Sourcecode      */
+ global/      /*   Components getting used everywhere   */
+  header.css
+  header.js     
+ main/           
+  Kitchen.js
+  PlaceOrder.js
+  UpdatePredicted.js
+ App.js   /* Routing logic and component assembly part */
+package.json /* Frontend dependency */ 
+ ............
+
+## Available Scripts
+
+## Backend Code
+cd backend-my-app
+npm install
+node server.js
+
+
+## Frontend Code
+
+Root directory except the backend-my-app contains the frontend code.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -24,6 +61,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+<br> For deployment, put the build code into the backend-my-app/build folder <br> and then start the express server
+
+
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 

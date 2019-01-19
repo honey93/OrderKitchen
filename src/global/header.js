@@ -10,7 +10,7 @@ class Header extends Component {
   constructor() {
     super();
     this.state = {
-      endpoint: 'http://localhost:3000'
+      endpoint: "http://localhost:3000/" // Update 3000 with port on which backend-my-app is running.
     };
 
     socket = socketIOClient(this.state.endpoint);
@@ -23,8 +23,8 @@ class Header extends Component {
           <ul className="NavClass">
             <li>
               <NavLink exact to="/">
-                {" "}
-                Place Order{" "}
+                
+                Place Order
               </NavLink>
             </li>
             <li>
