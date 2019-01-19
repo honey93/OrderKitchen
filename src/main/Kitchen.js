@@ -35,18 +35,7 @@ class Kitchen extends Component {
     socket.emit("mark_done", id);
   };
 
-  changePredQuantity = (event, foodid) => {
-    if (parseInt(event.target.value) < 0) {
-      event.target.value = 0;
-    }
-    var new_array = this.state.food_data.map(food => {
-      if (food._id == foodid) {
-        food.predQty = parseInt(event.target.value);
-      }
-      return food;
-    });
-    this.setState({ food_data: new_array });
-  };
+
 
   getFoodData() {
     return this.state.food_data.map(food => {
