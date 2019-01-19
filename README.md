@@ -6,29 +6,29 @@ Go to the root directory in the source code and find out the below-mentioned fil
 */
 <br>
 backend-my-app/ /* Backend of the code goes here */ <br>
- server.js<br>
- build/      /* Optional for deployment of Frontend Build */ <br>
- package.json /* Backend dependency */<br>
- ...<br>
+&nbsp; server.js<br>
+&nbsp; build/      /* Optional for deployment of Frontend Build */ <br>
+&nbsp; package.json /* Backend dependency */<br>
+&nbsp; ...<br>
 public/<br>
 src/  /*      Frontend Sourcecode      */<br>
- global/      /*   Components getting used everywhere   */<br>
-  header.css<br>
-  header.js     <br>
- main/              <br>
-  Kitchen.js<br>
-  PlaceOrder.js<br>
-  UpdatePredicted.js<br>
- App.js   /* Routing logic and component assembly part */<br>
+&nbsp; global/      /*   Components getting used everywhere   */<br>
+&nbsp;&nbsp;  header.css<br>
+&nbsp;&nbsp;  header.js     <br>
+&nbsp; main/              <br>
+&nbsp;&nbsp;  Kitchen.js<br>
+&nbsp;&nbsp;  PlaceOrder.js<br>
+&nbsp;&nbsp;  UpdatePredicted.js<br>
+&nbsp; App.js   /* Routing logic and component assembly part */<br>
 package.json /* Frontend dependency */ <br>
  ............<br>
 <br>
 ## Available Scripts
 
 ## Backend Code
-cd backend-my-app
-npm install
-node server.js
+cd backend-my-app <br>
+npm install<br>
+node server.js<br>
 
 
 ## Frontend Code
