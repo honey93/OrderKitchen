@@ -27,9 +27,9 @@ package.json /* Frontend dependency */ <br>
 ## Available Scripts
 
 ## Backend Code
-cd backend-my-app <br>
-npm install<br>
-node server.js<br>
+### `cd backend-my-app` <br>
+### `npm install`<br>
+### `node server.js`<br>
 
 
 ## Frontend Code
