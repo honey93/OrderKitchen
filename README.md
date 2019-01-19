@@ -6,7 +6,7 @@ Go to the root directory in the source code and find out the below-mentioned fil
 */
 <br>
 <br>
-backend-my-app/ /* Backend of the code goes here */ <br>
+backend-my-app /* Backend of the code goes here */ <br>
 &nbsp; server.js<br>
 &nbsp; build/      /* Optional for deployment of Frontend Build */ <br>
 &nbsp; package.json /* Backend dependency */<br>
