@@ -5,6 +5,7 @@ Project consist of both Backend and Frontend code
 Go to the root directory in the source code and find out the below-mentioned files. <br> This Architecture helps in creating a big modular App.
 */
 <br>
+<br>
 backend-my-app/ /* Backend of the code goes here */ <br>
 &nbsp; server.js<br>
 &nbsp; build/      /* Optional for deployment of Frontend Build */ <br>
