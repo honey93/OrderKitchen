@@ -1,40 +1,43 @@
-Project consist of both Backend and Frontend code
+# Project consist of both Backend and Frontend code
 
-## Folder Structure 
-/*
-Go to the root directory in the source code and find out the below-mentioned files. <br> This Architecture helps in creating a big modular App :
-*/
-<br>
-<br>
-backend-my-app /* Backend of the code goes here */ <br>
-&nbsp; server.js<br>
-&nbsp; build/      /* Optional for deployment of Frontend Build */ <br>
-&nbsp; package.json /* Backend dependency */<br>
-&nbsp; ...<br>
-public/<br>
-src/  /*      Frontend Sourcecode      */<br>
-&nbsp; global/      /*   Components getting used everywhere   */<br>
-&nbsp;&nbsp;  header.css<br>
-&nbsp;&nbsp;  header.js     <br>
-&nbsp; main/              <br>
-&nbsp;&nbsp;  Kitchen.js<br>
-&nbsp;&nbsp;  PlaceOrder.js<br>
-&nbsp;&nbsp;  UpdatePredicted.js<br>
-&nbsp; App.js   /* Routing logic and component assembly part */<br>
-package.json /* Frontend dependency */ <br>
- ............<br>
-<br>
+## Folder Structure : -       
+      
+### Go to the root directory in the source code and find out the below-mentioned files. This architecture helps in            creating a big modular App:
+       
+       
+       backend-my-app /* Backend of the code goes here */ 
+        server.js
+        package.json /* Backend dependency */    
+       build/      /* Optional for deployment of Frontend Build */        
+       public/
+       src/        /*      Frontend Sourcecode      */
+        global/      /*   Components getting used everywhere   */
+         header.css
+         header.js     
+        main/              
+         Kitchen.js
+         PlaceOrder.js
+         UpdatePredicted.js
+         App.js   /* Routing logic and component assembly part */
+       package.json /* Frontend dependency */ 
+       
+    
+
+
 ## Available Scripts
 
 ## Backend Code
-### `cd backend-my-app` <br>
-### `npm install`<br>
-### `node server.js`<br>
+
+
+     
+     cd backend-my-app 
+     npm install
+     node server.js
 
 
 ## Frontend Code
 
-Root directory except the backend-my-app contains the frontend code.
+### Root directory except the backend-my-app contains the frontend code.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
